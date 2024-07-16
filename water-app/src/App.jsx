@@ -4,6 +4,8 @@ import './App.css'
 import Hydration from './components/Hydration'
 import RecentlyAdded from './components/RecentlyAdded'
 import WaterLogs from './components/WaterLogs'
+import Footer from './components/Footer'
+
 import Controls from './components/Controls'
 function App() {
   // Initialise intakes state
@@ -23,6 +25,7 @@ function App() {
   <Controls addIntake={addIntake}/> 
   <RecentlyAdded intakes={intakes}/>
   <WaterLogs/>
+  <Footer />
     </>
   )
 }
