@@ -5,8 +5,10 @@ import Hydration from './components/Hydration'
 import RecentlyAdded from './components/RecentlyAdded'
 import WaterLogs from './components/WaterLogs'
 import Footer from './components/Footer'
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Controls from './components/Controls'
+
 function App() {
   // Initialise intakes state
   const [intakes, setIntakes] = useState([]);
@@ -15,15 +17,15 @@ function App() {
   const addIntake = (intake) => {
     setIntakes(prevIntakes => [...prevIntakes, intake]);
   }
-
+  const notify = () => toast.info('💧 Wow so easy!');
 
   return (
     <>
   <Header/>
   <Hydration/>
-
   <Controls addIntake={addIntake}/> 
   <RecentlyAdded intakes={intakes}/>
+  <button onClick={notify}>Notify!</button>
   <WaterLogs intakes={intakes}/>
   <Footer />
     </>
