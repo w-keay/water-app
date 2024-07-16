@@ -9,16 +9,18 @@
     height: 77px;
     width: 56px;
     position: absolute;
-    top:0;
+    top: 10px;
     right:0;
     bottom:0;
-    left:0;
+    left: 10px;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   color: black;
   text-align: center;
+  position: relative;
+  
 }
 
 .header-container {
