@@ -1,8 +1,33 @@
-.cont {
-    background-color: aqua;
-    width: 100%;
-    border: 2px solid black;
+.watercont {
+    background-color: rgb(253, 253, 253);
+    width: 40vw;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.waterintakecont {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;  
+    padding: 0 20px;
+}
+
+.waterintakecont img {
+    height: 30px;
+    text-align: left;
+}
+
+
+.watercont button {
+    background: none;
+    color: inherit;
+    border: none;
     padding: 0;
-    margin: 0;
-    
+    margin: 5px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }

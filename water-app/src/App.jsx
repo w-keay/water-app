@@ -24,7 +24,7 @@ function App() {
 
   <Controls addIntake={addIntake}/> 
   <RecentlyAdded intakes={intakes}/>
-  <WaterLogs/>
+  <WaterLogs intakes={intakes}/>
   <Footer />
     </>
   )
