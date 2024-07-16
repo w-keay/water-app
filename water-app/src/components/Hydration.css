@@ -1,14 +1,14 @@
-.container {
+.water-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 40vh;
     text-align: center;
 }
 
 .water {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     background-color: #35b3e7;
     border-radius: 50%;
     position: relative;

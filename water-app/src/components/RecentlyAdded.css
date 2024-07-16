@@ -9,9 +9,9 @@
 }
 
 .intakecont {
-    display: flex; /* This will arrange the children (img and p) side by side */
-    align-items: center; /* This will vertically center the children */
-    justify-content: space-between; /* This will maximise the space between the children */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;  
     padding: 0 20px;
 }
 
