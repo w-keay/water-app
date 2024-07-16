@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import glass from "../assets/glassicon.png";
-
+import "./WaterLogs.css"
 const WaterLogs = ({intakes}) => {
   const [activeTab, setActiveTab] = useState('Today');
 
