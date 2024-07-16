@@ -6,14 +6,24 @@ import RecentlyAdded from './components/RecentlyAdded'
 import WaterLogs from './components/WaterLogs'
 import Footer from './components/Footer'
 
+import Controls from './components/Controls'
 function App() {
-  const [count, setCount] = useState(0)
+  // Initialise intakes state
+  const [intakes, setIntakes] = useState([]);
+
+  // Function to add a new intake
+  const addIntake = (intake) => {
+    setIntakes(prevIntakes => [...prevIntakes, intake]);
+  }
+
 
   return (
     <>
   <Header/>
   <Hydration/>
-  <RecentlyAdded/>
+
+  <Controls addIntake={addIntake}/> 
+  <RecentlyAdded intakes={intakes}/>
   <WaterLogs/>
   <Footer />
     </>
