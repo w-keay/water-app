@@ -4,6 +4,7 @@ import './App.css'
 import Hydration from './components/Hydration'
 import RecentlyAdded from './components/RecentlyAdded'
 import WaterLogs from './components/WaterLogs'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
   <Hydration/>
   <RecentlyAdded/>
   <WaterLogs/>
+  <Footer />
     </>
   )
 }
