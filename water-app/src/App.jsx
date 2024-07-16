@@ -25,9 +25,8 @@ function App() {
   <Hydration/>
   <Controls addIntake={addIntake}/> 
   <RecentlyAdded intakes={intakes}/>
-  <WaterLogs/>
-  
   <button onClick={notify}>Notify!</button>
+  <WaterLogs intakes={intakes}/>
   <Footer />
     </>
   )

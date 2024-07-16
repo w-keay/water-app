@@ -1,11 +1,14 @@
-import React from 'react'
-import "./Hydration.css"
+import React from 'react';
+import "./Hydration.css";
+
 const Hydration = () => {
   return (
-
     <>   
-    <div className='cont'>Hydration</div>
-  </>  )
+      <div className='water-container'>
+        <div className="water"></div>
+      </div>
+    </>  
+  );
 }
 
-export default Hydration
+export default Hydration;

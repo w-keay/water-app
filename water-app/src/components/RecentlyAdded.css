@@ -1,6 +1,6 @@
 .recentcont {
     background-color: rgb(253, 253, 253);
-    width: 60vw;
+    width: 40vw;
     text-align: center;
     border-radius: 10px;
     padding: 15px;
@@ -9,9 +9,9 @@
 }
 
 .intakecont {
-    display: flex; /* This will arrange the children (img and p) side by side */
-    align-items: center; /* This will vertically center the children */
-    justify-content: space-between; /* This will maximise the space between the children */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;  
     padding: 0 20px;
 }
 
