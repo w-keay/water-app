@@ -4,7 +4,7 @@ const Header = () => {
   return (
 
   <>   
-    <div className='cont'>Header</div>
+    <div id='headcont'>Header</div>
   </> 
    )
 }
