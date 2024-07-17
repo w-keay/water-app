@@ -31,10 +31,7 @@ const Controls = ({ addIntake }) => {
                 </button>
             </div>
 
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Add Water Intake</Modal.Title>
-                </Modal.Header>
+            <Modal show={show} onHide={handleClose} className="custom-modal">
                 <Modal.Body>
                     <div className="input-container">
                         <input
@@ -45,7 +42,7 @@ const Controls = ({ addIntake }) => {
                             step="50"
                             className="input-field"
                         />
-                        <span style={{ color: 'black' }}> ml</span>
+                        <span> ml</span>
                         <Button onClick={handleAddWater} style={{ marginLeft: '10px' }}>
                             Drink Water
                         </Button>

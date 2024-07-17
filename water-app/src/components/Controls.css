@@ -49,3 +49,49 @@
     cursor: pointer;
     outline: inherit;
 }
+
+.custom-modal .modal-dialog {
+    width: 300px; /* Adjust the width and height as needed */
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   margin: 300px auto;
+  
+}
+.custom-modal .modal-content {
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-modal .modal-header, .custom-modal .modal-footer {
+    display: none; /* Hide the header and footer */
+}
+
+.custom-modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field {
+    width: 100px;
+    text-align: center;
+}
+
+.custom-modal .modal-body span {
+    color: black;
+}
