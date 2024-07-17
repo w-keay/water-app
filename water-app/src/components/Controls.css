@@ -6,6 +6,7 @@
     margin: 2px auto;
  position: relative;
  bottom: -58px;
+ z-index: 1;
 
 }
 
