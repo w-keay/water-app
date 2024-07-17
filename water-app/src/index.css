@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 width: 100%;
+min-height: 100%;
   color-scheme: light dark;
  /* Add your background image here */
  background-image: url('./assets/bg4.jpg'); /* Replace 'path-to-your-image.jpg' with the path to your image */
