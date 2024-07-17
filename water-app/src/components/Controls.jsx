@@ -1,11 +1,16 @@
 import React from 'react'
 import "./Controls.css"
+import { toast } from 'react-toastify';
+import plus from "../assets/plus.png"
 const Controls = ({addIntake}) => {
+    const notify = () => toast.info('💧 Wow so easy!');
   return (
     <>
         <div className='controlcont'>
-            <h3>Controls</h3>
-            <button onClick={() => addIntake('Water 300ml')}>Add Intake</button>
+          
+            <button onClick={() => { addIntake('Water 300ml'); notify(); }}>
+                <img src={plus} alt="plus" />
+            </button>       
         </div>
     </>
   )

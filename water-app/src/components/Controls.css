@@ -1,9 +1,50 @@
 .controlcont {
-    background-color: rgb(253, 253, 253);
     width: 40vw;
     text-align: center;
     border-radius: 10px;
-    padding: 15px;
-    margin: 20px auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    margin: 2px auto;
+ position: relative;
+ bottom: -58px;
+
+}
+
+.controlcont button {
+    background: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #35b3e7;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 5px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+    
+
+}
+
+.controlcont button img {
+ height: 50px;
+ width: 50px;
+
+}
+
+
+.controlcont button:hover {
+    background: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #1e6381;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 5px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }

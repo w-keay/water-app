@@ -1,9 +1,9 @@
 .recentcont {
     background-color: rgb(253, 253, 253);
-    width: 40vw;
+    width: 20vw;
     text-align: center;
     border-radius: 10px;
-    padding: 15px;
+    padding: 35px 15px;
     margin: 20px auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -18,4 +18,12 @@
 .intakecont img {
     height: 30px;
     text-align: left;
+}
+
+
+
+@media (max-width: 990px) {
+    .recentcont {
+        width: 40vw;
+    }
 }

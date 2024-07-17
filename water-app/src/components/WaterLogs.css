@@ -1,6 +1,6 @@
 .watercont {
     background-color: rgb(253, 253, 253);
-    width: 40vw;
+    width: 20vw;
     text-align: center;
     border-radius: 10px;
     padding: 15px;
@@ -30,4 +30,10 @@
     font: inherit;
     cursor: pointer;
     outline: inherit;
+}
+
+@media (max-width: 990px) {
+    .watercont {
+        width: 40vw;
+    }
 }
