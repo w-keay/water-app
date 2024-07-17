@@ -1,5 +1,5 @@
 .watercont {
-    width: 20vw;
+    width: 30vw;
     text-align: center;
     border-radius: 10px;
     padding: 15px;
@@ -34,6 +34,9 @@
     outline: inherit;
 }
 
+#tabs button{
+    margin-bottom: 20px;
+}
 @media (max-width: 990px) {
     .watercont {
         width: 40vw;

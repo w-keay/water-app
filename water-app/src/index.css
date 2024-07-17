@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 width: 100%;
+min-height: 100%;
   color-scheme: light dark;
  /* Add your background image here */
  background-image: url('./assets/bg4.jpg'); /* Replace 'path-to-your-image.jpg' with the path to your image */
@@ -21,4 +22,6 @@ padding: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}body {
+  background: none; /* Remove any background color set by Bootstrap */
 }

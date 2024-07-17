@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-/* Apply the font to an element */
 
 .cont1 {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    position: relative;
+    height: 100px; /* Adjust as necessary */
 }
 
 #logo {
@@ -10,20 +14,20 @@
     width: 56px;
     position: absolute;
     top: 10px;
-    right:0;
-    bottom:0;
     left: 10px;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   color: black;
-  text-align: center;
-  position: relative;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; /* Remove default margin */
 }
 
 .header-container {
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Align items vertically */
-  }
+}
