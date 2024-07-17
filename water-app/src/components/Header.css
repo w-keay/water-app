@@ -10,11 +10,12 @@
 }
 
 #logo {
-    height: 77px;
-    width: 56px;
+    height: 50px;
+    
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top:50%;
+   left: 30px;
+    transform: translate(-50%, -50%);
 }
 
 h1 {

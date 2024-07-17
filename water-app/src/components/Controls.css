@@ -87,6 +87,10 @@
     justify-content: center;
 }
 
+.input-container span{
+    margin-left: 4px;
+}
+
 .input-field {
     width: 100px;
     text-align: center;
