@@ -27,18 +27,16 @@ useEffect(() =>{
   const addIntake = (intake) => {
     setIntakes(prevIntakes => [...prevIntakes, intake]);
   }
-  const notify = () => toast.info('💧 Wow so easy!');
 
   return (
-    <>
-  <Header/>
-  <Hydration/>
-  <Controls addIntake={addIntake}/> 
-  <RecentlyAdded intakes={intakes}/>
-  <WaterLogs intakes={intakes}/>
-  <button onClick={notify}>Notify!</button>
-  <Footer />
-    </>
+  <>
+    <Header/>
+    <Hydration/>
+    <Controls addIntake={addIntake}/> 
+    <RecentlyAdded intakes={intakes}/>
+    <WaterLogs intakes={intakes}/>
+    <Footer />
+  </>
   )
 }
 
