@@ -2,13 +2,17 @@
 import { initializeApp } from "firebase/app";
 import { getMessaging, getToken } from "firebase/messaging";
 
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+const API_KEY = import.meta.env.VITE_APP_API_KEY;
+const FIREBASEAPI = import.meta.env.VITE_APP_FIREBASEAPI;
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBJzXVHzst-VKxxh1375W0NIpn9CPj7Jnk",
+  apiKey: FIREBASEAPI,
   authDomain: "waterbreak-e5976.firebaseapp.com",
   projectId: "waterbreak-e5976",
   storageBucket: "waterbreak-e5976.appspot.com",
@@ -26,7 +30,7 @@ export const generateToken = async () => {
     console.log(permission);
     if(permission === "granted") {
         const token = await getToken(messaging, {
-            vapidkey: "BLdYkNs50ZamjLZS6m9qFSVrebm0O4K7owfphGD3E_8F6g5mJg-kbYnlYaJ8mK3qe2P1cWlEVRyfDd2jPROdnTU"
+            vapidkey: API_KEY
         });
         console.log(token)
     }
