@@ -7,12 +7,12 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 
 
 
-const FIREBASEAPI = import.meta.env.VITE_APP_FIREBASEAPI;
+// const FIREBASEAPI = import.meta.env.VITE_APP_FIREBASEAPI;
 // Initialize the Firebase app in the service worker by passing in
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-    apiKey: FIREBASEAPI,
+    apiKey: "AIzaSyBJzXVHzst-VKxxh1375W0NIpn9CPj7Jnk",
     authDomain: "waterbreak-e5976.firebaseapp.com",
     projectId: "waterbreak-e5976",
     storageBucket: "waterbreak-e5976.appspot.com",
